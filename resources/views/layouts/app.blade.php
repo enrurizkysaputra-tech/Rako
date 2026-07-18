@@ -1,3 +1,4 @@
+<!-- RAKO - Layout utama aplikasi -->
 <!DOCTYPE html>
 <html lang="id">
 <head>
