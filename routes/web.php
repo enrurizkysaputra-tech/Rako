@@ -1,3 +1,4 @@
+// Routing utama aplikasi RAKO - dikelompokkan per role: admin, dokter, pasien
 <?php
 
 use App\Http\Controllers\HomeController;
