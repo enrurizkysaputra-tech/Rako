@@ -8,6 +8,7 @@ use App\Models\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
 
+// Seeder untuk data awal: 1 admin, beberapa dokter contoh, dan 1 pasien contoh
 class RoleUserSeeder extends Seeder
 {
     public function run(): void
