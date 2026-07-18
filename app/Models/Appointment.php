@@ -5,6 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+/**
+ * Model Appointment merepresentasikan data reservasi klinik.
+ * Menyimpan relasi ke pasien, dokter, jadwal, serta status reservasi.
+ */
 class Appointment extends Model
 {
     use HasFactory;
