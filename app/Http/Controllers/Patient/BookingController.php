@@ -8,6 +8,10 @@ use App\Models\Doctor;
 use App\Models\Schedule;
 use Illuminate\Http\Request;
 
+/**
+ * Controller untuk menangani proses reservasi klinik oleh pasien,
+ * termasuk pembatalan reservasi.
+ */
 class BookingController extends Controller
 {
     // Form booking untuk dokter tertentu
