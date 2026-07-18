@@ -6,6 +6,10 @@ use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
+/**
+ * Middleware untuk membatasi akses halaman berdasarkan role pengguna
+ * (admin, dokter, pasien).
+ */
 class EnsureUserHasRole
 {
     /**
